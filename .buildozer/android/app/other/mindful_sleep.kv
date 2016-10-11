@@ -1,0 +1,21 @@
+#:kivy 1.7.1
+<Mindful_sleep>:
+    orientation: 'vertical'
+    Label:
+        text: 'Sleeping acording to sleep cycles'
+        font_size: '45sp'
+        size_hint: 1, None
+        height: self.texture_size[1]
+        
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            id: wake_up
+            text: 'When to wake up?'
+            size_hint: 1, None
+            
+        Button:
+            id: sleep
+            text: 'When to go to sleep?'
+            size_hint: 1, None
+            
